@@ -20,7 +20,7 @@ The Weather API project is designed to provide a weather forecast service. Users
    spring.datasource.url=jdbc:mysql://localhost:3306/your_database
    spring.datasource.username=your_username
    spring.datasource.password=your_password
-  Note: Replace your_database, your_username, and your_password with your actual database details.
+Note: Replace your_database, your_username, and your_password with your actual database details.
 # API Endpoints
 1. GET /api/v1/weather/forecast?location={city/province} - Get a list of weather forecasts for that province/city
 2. GET /api/v1/weather/more-forecast?location={city/province}&date={date} - Get a list of weather forecasts for the next days of the province/city
