@@ -108,7 +108,7 @@ public class WeatherService {
     }
 
     public List<WeatherForecast> loadMoreForecast(String location, String date){
-        LocalDate starDate = LocalDate.parse(date);
+        LocalDate starDate = LocalDate.parse(date).plusDays(1);
         LocalDate enDate = starDate.plusDays(4);
         return weatherForecastRepository.findByLocationAndDateBetween(location, starDate, enDate);
     }
