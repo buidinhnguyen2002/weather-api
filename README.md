@@ -10,6 +10,10 @@ The Weather API project is designed to provide a weather forecast service. Users
    git clone https://github.com/buidinhnguyen2002/weather-api.git
 2. Install Dependencies
    mvn clean install
+# Running the Application
+ ## 1. Run file src/main/java/com.example.weatherapi/WeatherApiApplication.java
+ ## 2. Run via IDE
+    Open the project in an IDE like IntelliJ IDE, and select Run to start the application.
 # Configuration
  - Database Configuration
    In src/main/resources/application.properties, configure the database settings as follows:
@@ -26,3 +30,7 @@ The Weather API project is designed to provide a weather forecast service. Users
 # Other features
 1. Send daily weather information at 5am to registered users' emails
 2. Temporarily store weather information to reload during the day
+# References
+   - Spring Boot Documentation
+   - Maven Documentation
+   - MySQL Documentation
